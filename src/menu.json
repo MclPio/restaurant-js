@@ -1,0 +1,114 @@
+{
+  "menu": [
+    {
+      "category": "Classic Pizzas",
+      "items": [
+        {
+          "name": "Margherita Pizza",
+          "description": "Fresh mozzarella, zesty tomato sauce, and basil on a thin, crispy crust.",
+          "price": 8.99
+        },
+        {
+          "name": "Pepperoni Feast",
+          "description": "Loaded with premium pepperoni slices, mozzarella cheese, and a robust tomato sauce.",
+          "price": 9.99
+        },
+        {
+          "name": "Four Cheese Medley",
+          "description": "A rich blend of mozzarella, cheddar, parmesan, and provolone over a garlic-infused white sauce.",
+          "price": 10.49
+        }
+      ]
+    },
+    {
+      "category": "Specialty Pizzas",
+      "items": [
+        {
+          "name": "BBQ Chicken Extravaganza",
+          "description": "Savory BBQ sauce, grilled chicken, red onions, and cilantro with a mix of mozzarella and smoked gouda.",
+          "price": 11.99
+        },
+        {
+          "name": "Veggie Delight",
+          "description": "Fresh mushrooms, bell peppers, onions, black olives, and tomatoes over a light tomato sauce.",
+          "price": 9.49
+        },
+        {
+          "name": "Spicy Italian Sausage",
+          "description": "Spicy Italian sausage, roasted red peppers, and caramelized onions on a bed of tomato sauce and mozzarella.",
+          "price": 10.99
+        },
+        {
+          "name": "Mediterranean Bliss",
+          "description": "A fusion of feta cheese, sun-dried tomatoes, kalamata olives, spinach, and artichokes on a garlic cream base.",
+          "price": 11.49
+        }
+      ]
+    },
+    {
+      "category": "Gourmet Pizzas",
+      "items": [
+        {
+          "name": "Truffle Mushroom",
+          "description": "White truffle oil, wild mushrooms, mozzarella, and a sprinkle of parmesan on a creamy Alfredo base.",
+          "price": 12.99
+        },
+        {
+          "name": "Prosciutto & Arugula",
+          "description": "Thinly sliced prosciutto, fresh arugula, cherry tomatoes, and a balsamic glaze over mozzarella.",
+          "price": 13.49
+        },
+        {
+          "name": "Buffalo Chicken",
+          "description": "Spicy buffalo sauce, grilled chicken, red onions, and a drizzle of ranch dressing, topped with mozzarella.",
+          "price": 12.49
+        }
+      ]
+    },
+    {
+      "category": "Sides & Extras",
+      "items": [
+        {
+          "name": "Garlic Breadsticks",
+          "description": "Crispy breadsticks with a side of marinara dipping sauce.",
+          "price": 3.99
+        },
+        {
+          "name": "Caesar Salad",
+          "description": "Crisp romaine lettuce, parmesan, croutons, and Caesar dressing.",
+          "price": 4.99
+        },
+        {
+          "name": "Mozzarella Sticks",
+          "description": "Golden-fried mozzarella sticks with marinara sauce.",
+          "price": 5.49
+        },
+        {
+          "name": "Chocolate Lava Cake",
+          "description": "A rich, warm chocolate cake with a gooey center.",
+          "price": 4.49
+        }
+      ]
+    },
+    {
+      "category": "Beverages",
+      "items": [
+        {
+          "name": "Soft Drinks",
+          "description": "Coke, Diet Coke, Sprite, Fanta",
+          "price": 1.99
+        },
+        {
+          "name": "Bottled Water",
+          "description": "",
+          "price": 1.49
+        },
+        {
+          "name": "Iced Tea",
+          "description": "",
+          "price": 2.49
+        }
+      ]
+    }
+  ]
+}

@@ -1,8 +1,6 @@
-import Pizza from './pizza.jpg'
+import { homepage } from './home.js';
+import { menu } from './menu.js';
 
-const myImage = new Image();
-myImage.src = Pizza;
-myImage.width = '600'
-myImage.alt = 'A cheese pizza with golden crust, cherry tomatoes, rosemary, and a large yellow tomato on a wooden surface.'
-const element = document.getElementById('content');
-element.appendChild(myImage);
+//write event listener to change content based on navbar button clicks
+homepage();
+menu();
