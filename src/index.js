@@ -1,6 +1,20 @@
 import { homepage } from './home.js';
 import { menu } from './menu.js';
+import { about } from './about.js';
 
-//write event listener to change content based on navbar button clicks
 homepage();
-menu();
+const navbar = document.getElementById('navbar');
+const content = document.getElementById('content');
+
+navbar.addEventListener('click', (event) => {
+  content.innerHTML = '';
+
+  if (event.target.id == 'home') {
+    homepage();
+  } else if (event.target.id == 'menu') {
+    menu();
+  } else if (event.target.id == 'about') {
+    about();
+  };
+})
+
