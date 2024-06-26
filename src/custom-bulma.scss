@@ -14,6 +14,12 @@ $hsl-primary: hsl(211, 100%, 50%);
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-Regular.ttf');
+  font-style: normal;
+}
+
 :root {
   background-color: $cool-white;
 }
@@ -47,6 +53,15 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover,
   color: $icy-blue;
   font-weight: bold;
   font-family: 'Raleway';
+  line-height: 1.1;
+}
+
+.hero2 {
+  font-size: 4rem;
+  color: $icy-blue;
+  font-weight: bold;
+  font-family: 'Raleway';
+  line-height: 1.1;
 }
 
 .roboto {
@@ -64,6 +79,23 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover,
 
 .hero1-button:hover, .hero1-button.is-hovered {
   background-color: $navy-blue;
+}
+
+.rounded-custom {
+  border-radius: 1vmin;
+}
+
+.cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.grid {
+  row-gap: 8rem;
+  column-gap: 2rem;
 }
 
 @media screen and (max-width: 1023px) {
