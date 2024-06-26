@@ -22447,8 +22447,6 @@ has-background-danger.is-hoverable:active {
   font-style: normal;
 }
 :root {
-  margin-left: 10%;
-  margin-right: 10%;
   background-color: #F0F8FF;
 }
 
@@ -22474,6 +22472,30 @@ has-background-danger.is-hoverable:active {
 a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover,
 .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover {
   background-color: hsla(var(--bulma-burger-h), var(--bulma-burger-s), var(--bulma-burger-l), 0.1);
+}
+
+.hero1 {
+  font-size: 5rem;
+  color: #007BFF;
+  font-weight: bold;
+  font-family: "Raleway";
+}
+
+.roboto {
+  font-family: "Roboto";
+  font-size: 1.2em;
+  color: #007BFF;
+}
+
+.hero1-button {
+  font-family: "Roboto";
+  font-size: 1.2em;
+  color: #F0F8FF;
+  background-color: #007BFF;
+}
+
+.hero1-button:hover, .hero1-button.is-hovered {
+  background-color: #004080;
 }
 
 @media screen and (max-width: 1023px) {

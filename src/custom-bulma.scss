@@ -15,8 +15,6 @@ $hsl-primary: hsl(211, 100%, 50%);
 }
 
 :root {
-  margin-left: 10%;
-  margin-right: 10%;
   background-color: $cool-white;
 }
 
@@ -42,6 +40,30 @@ $hsl-primary: hsl(211, 100%, 50%);
 a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, 
 .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover {
   background-color: hsla(var(--bulma-burger-h), var(--bulma-burger-s), var(--bulma-burger-l), 0.1);
+}
+
+.hero1 {
+  font-size: 5rem;
+  color: $icy-blue;
+  font-weight: bold;
+  font-family: 'Raleway';
+}
+
+.roboto {
+  font-family: 'Roboto';
+  font-size: 1.2em;
+  color: $icy-blue;
+}
+
+.hero1-button {
+  font-family: 'Roboto';
+  font-size: 1.2em;
+  color: $cool-white;
+  background-color: $icy-blue;
+}
+
+.hero1-button:hover, .hero1-button.is-hovered {
+  background-color: $navy-blue;
 }
 
 @media screen and (max-width: 1023px) {
