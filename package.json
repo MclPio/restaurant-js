@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "pushpages": "git subtree push --prefix dist origin gh-pages"
+    "pushpages": "git subtree push --prefix dist origin gh-pages",
+    "build-bulma": "sass --load-path=node_modules ./src/custom-bulma.scss ./src/custom-bulma.css",
+    "bulma-start": "npm run build-bulma -- --watch"
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,7 @@
     "webpack-merge": "^5.10.0"
   },
   "dependencies": {
-    "bulma": "^1.0.1"
+    "bulma": "^1.0.1",
+    "sass": "^1.77.6"
   }
 }

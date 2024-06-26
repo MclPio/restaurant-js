@@ -1,8 +1,10 @@
 import { homepage } from './home.js';
 import { menu } from './menu.js';
 import { about } from './about.js';
-import './style.css';
+import { navbarBurger } from './navbar.js'
+import './custom-bulma.css';
 
+navbarBurger();
 homepage();
 const navbar = document.getElementById('navbar');
 const content = document.getElementById('content');

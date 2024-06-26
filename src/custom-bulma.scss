@@ -1,0 +1,57 @@
+// Set your brand colors
+$icy-blue: #007BFF;
+$cool-white: #F0F8FF;
+$navy-blue: #004080;
+$light-grey: #D3D3D3;
+$hsl-primary: hsl(211, 100%, 50%);
+
+// Path to Bulma's sass folder
+@use "bulma/sass";
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('./Raleway-VariableFont_wght.ttf');
+  font-style: normal;
+}
+
+:root {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: $cool-white;
+}
+
+.navbar-item {
+  color: $icy-blue;
+  font-family: 'Raleway';
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.navbar-brand > .navbar-item {
+  font-weight: bold;
+} 
+
+.navbar {
+  background-color: $cool-white;
+}
+
+.navbar-burger {
+  color: $icy-blue;
+}
+
+a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, 
+.navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover {
+  background-color: hsla(var(--bulma-burger-h), var(--bulma-burger-s), var(--bulma-burger-l), 0.1);
+}
+
+@media screen and (max-width: 1023px) {
+  .navbar-menu {
+    background-color: transparent;
+  }
+
+  a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, 
+  .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover {
+    background-color: hsla(var(--bulma-burger-h), var(--bulma-burger-s), var(--bulma-burger-l), 0.1);
+  }
+}
+
