@@ -8,7 +8,7 @@
     "start": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "pushpages": "git subtree push --prefix dist origin gh-pages",
-    "build-bulma": "sass --load-path=node_modules ./src/custom-bulma.scss ./src/custom-bulma.css",
+    "build-bulma": "sass --load-path=node_modules ./src/styles/custom-bulma.scss ./src/styles/custom-bulma.css",
     "bulma-start": "npm run build-bulma -- --watch"
   },
   "repository": {

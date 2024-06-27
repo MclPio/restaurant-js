@@ -1,8 +1,8 @@
-import { homepage } from './home.js';
-import { menu } from './menu.js';
-import { about } from './about.js';
-import { navbarBurger } from './navbar.js'
-import './custom-bulma.css';
+import { homepage } from './home/home.js';
+import { menu } from './menu/menu.js';
+import { about } from './about/about.js';
+import { navbarBurger } from '../views/navbar.js';
+import '../styles/custom-bulma.css';
 
 navbarBurger();
 homepage();
