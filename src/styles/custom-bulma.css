@@ -22455,6 +22455,17 @@ has-background-danger.is-hoverable:active {
   background-color: #F0F8FF;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#content {
+  flex: 1;
+}
+
 .title.is-2, .title.is-1 {
   margin-bottom: 0;
 }
@@ -22621,10 +22632,46 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover,
   font-size: 1.2rem;
 }
 
+.menu-heading-1 {
+  color: #007BFF;
+  font-family: "Raleway";
+  font-weight: bold;
+}
+
+h2.menu-heading-2 {
+  color: #007BFF;
+  font-family: "Raleway";
+  font-weight: bold;
+  margin-bottom: 0 !important;
+  margin-top: 1rem;
+}
+
 .gradient.page-end {
   width: 100%;
   height: 1rem;
   margin-top: 2rem;
+}
+
+.title-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.item-price, .item-desc {
+  font-family: "Roboto";
+}
+
+.chef-name {
+  font-family: "Raleway";
+  color: #004080;
+  font-weight: bold;
+}
+
+.chef-details {
+  font-family: "Roboto";
+  color: #004080;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 1023px) {
