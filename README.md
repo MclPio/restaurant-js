@@ -2,6 +2,7 @@
 
 * [Project Description](https://www.theodinproject.com/lessons/javascript-restaurant-page)
 * [Live Demo](https://www.michaelpious.com/restaurant-js/)
+* [Blog Post](https://www.michaelpious.com/posts/restaurant-page/)
 
 ## Table of Contents
 1. [About](#about)
