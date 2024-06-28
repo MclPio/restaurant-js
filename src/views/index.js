@@ -7,19 +7,24 @@ import '../styles/custom-bulma.css';
 navbarBurger();
 homepage();
 const navbar = document.getElementById('navbar');
+const footerLinks = document.getElementById('footer-links');
 const content = document.getElementById('content');
 
-navbar.addEventListener('click', (event) => {
+const navigationLinks = [];
+navigationLinks.push(footerLinks, navbar);
 
-  if (event.target.id == 'home') {
-    content.innerHTML = '';
-    homepage();
-  } else if (event.target.id == 'menu') {
-    content.innerHTML = '';
-    menu();
-  } else if (event.target.id == 'about') {
-    content.innerHTML = '';
-    about();
-  };
-})
+navigationLinks.forEach(function(ele) {
+  ele.addEventListener('click', (event) => {
 
+    if (event.target.id == 'home') {
+      content.innerHTML = '';
+      homepage();
+    } else if (event.target.id == 'menu') {
+      content.innerHTML = '';
+      menu();
+    } else if (event.target.id == 'about') {
+      content.innerHTML = '';
+      about();
+    };
+  });
+});
