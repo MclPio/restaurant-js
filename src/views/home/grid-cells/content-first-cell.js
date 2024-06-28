@@ -1,12 +1,12 @@
 function contentFirstCell() {
     //hero1 container
     const hero1 = document.createElement('div');
-    hero1.className = 'cell content'
+    hero1.className = 'cell'
   
     // hero1 heading
     const hero1_header = document.createElement('div');
     hero1_header.innerText = "Frozen Is The New Fresh";
-    hero1_header.className = 'hero1';
+    hero1_header.className = 'hero1 title is-1';
     hero1.appendChild(hero1_header);
   
     // hero1 desc

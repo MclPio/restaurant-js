@@ -6,7 +6,7 @@ function contentFifthCell() {
   // hero3 heading
   const hero3_header = document.createElement('div');
   hero3_header.innerText = "Enjoy Complimentary Beverages";
-  hero3_header.className = 'hero2';
+  hero3_header.className = 'hero2 title is-2';
   hero3.appendChild(hero3_header);
 
   // hero3 desc

@@ -6,7 +6,7 @@ function contentFourthCell() {
   // hero2 heading
   const hero2_header = document.createElement('div');
   hero2_header.innerText = "Why Our Pizza?";
-  hero2_header.className = 'hero2';
+  hero2_header.className = 'hero2 title is-2';
   hero2.appendChild(hero2_header);
 
   // hero2 desc

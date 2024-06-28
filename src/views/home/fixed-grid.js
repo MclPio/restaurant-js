@@ -4,7 +4,6 @@ import { contentThirdCell } from './grid-cells/content-third-cell.js';
 import { contentFourthCell } from './grid-cells/content-fourth-cell.js';
 import { contentFifthCell } from './grid-cells/content-fifth-cell.js';
 import { contentSixthCell } from './grid-cells/content-sixth-cell.js';
-import { callToAction } from './grid-cells/call-to-action.js';
 
 function fixedGrid() {
   // fixed grid
@@ -20,7 +19,6 @@ function fixedGrid() {
   grid.appendChild(contentFourthCell());
   grid.appendChild(contentFifthCell());
   grid.appendChild(contentSixthCell());
-  grid.appendChild(callToAction());
   fixed_grid.appendChild(grid);
 
   return fixed_grid;

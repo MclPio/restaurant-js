@@ -1,7 +1,7 @@
 function callToAction() {
   // call to action hero
   const cta_div = document.createElement('div');
-  cta_div.className = 'cell is-col-span-2';
+  cta_div.className = '';
 
   const hero_section = document.createElement('section');
   hero_section.className = 'hero is-medium hero-is-custom gradient';

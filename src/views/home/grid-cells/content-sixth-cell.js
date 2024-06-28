@@ -3,7 +3,7 @@ import soda from './soda-600w.jpg';
 function contentSixthCell() {
   //hero3 figure
   const hero3_figure = document.createElement('figure');
-  hero3_figure.className = 'image is-1by1'
+  hero3_figure.className = 'cell'
 
   //hero3 image
   const hero3_image = new Image();

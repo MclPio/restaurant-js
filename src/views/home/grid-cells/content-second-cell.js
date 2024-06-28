@@ -3,7 +3,7 @@ import margarita from './margarita-600w.jpg';
 function contentSecondCell() {
 //hero1 figure
   const hero1_figure = document.createElement('figure');
-  hero1_figure.className = 'image is-1by1';
+  hero1_figure.className = 'cell';
 
   //hero1 image
   const hero1_image = new Image();

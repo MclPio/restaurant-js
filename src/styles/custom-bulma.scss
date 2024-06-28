@@ -24,6 +24,10 @@ $hsl-primary: hsl(211, 100%, 50%);
   background-color: $cool-white;
 }
 
+.title.is-2, .title.is-1 {
+  margin-bottom: 0;
+}
+
 .navbar-item, .footer-column-header {
   color: $icy-blue;
   font-family: 'Raleway';
@@ -94,18 +98,19 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover,
 }
 
 .grid {
-  row-gap: 8rem;
+  row-gap: 4rem;
   column-gap: 2rem;
 }
 
 .hero-is-custom {
-  font-size: 4rem;
+  font-size: 3rem;
   color: $cool-white;
   font-weight: bold;
   font-family: 'Raleway';
   line-height: 1.1;
   width: 100%;
   border-radius: 3vmin;
+  margin-top: 6rem;
 }
 
 .gradient {
@@ -180,7 +185,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover,
 }
 
 .footer .newsletter input::placeholder {
-  color: $cool-white;
+  color: $light-grey;
   font-family: 'Roboto';
   font-size: 1.2rem;
 }
@@ -202,3 +207,16 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover,
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .title.is-1 {
+    font-size: 5rem;
+  }
+
+  .title.is-2 {
+    font-size: 4rem;
+  }
+
+  .hero-is-custom {
+    font-size: 4rem;
+  }
+}

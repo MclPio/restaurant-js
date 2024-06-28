@@ -3,7 +3,7 @@ import pepperoni from './pepperoni-600w.jpg';
 function contentThirdCell() {
   //hero2 figure
   const hero2_figure = document.createElement('figure');
-  hero2_figure.className = 'image is-1by1'
+  hero2_figure.className = 'cell'
 
   //hero2 image
   const hero2_image = new Image();

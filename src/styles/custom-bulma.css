@@ -22455,6 +22455,10 @@ has-background-danger.is-hoverable:active {
   background-color: #F0F8FF;
 }
 
+.title.is-2, .title.is-1 {
+  margin-bottom: 0;
+}
+
 .navbar-item, .footer-column-header {
   color: #007BFF;
   font-family: "Raleway";
@@ -22525,18 +22529,19 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover,
 }
 
 .grid {
-  row-gap: 8rem;
+  row-gap: 4rem;
   column-gap: 2rem;
 }
 
 .hero-is-custom {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #F0F8FF;
   font-weight: bold;
   font-family: "Raleway";
   line-height: 1.1;
   width: 100%;
   border-radius: 3vmin;
+  margin-top: 6rem;
 }
 
 .gradient {
@@ -22611,7 +22616,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover,
 }
 
 .footer .newsletter input::placeholder {
-  color: #F0F8FF;
+  color: #D3D3D3;
   font-family: "Roboto";
   font-size: 1.2rem;
 }
@@ -22629,6 +22634,17 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover,
   a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover,
   .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover {
     background-color: hsla(var(--bulma-burger-h), var(--bulma-burger-s), var(--bulma-burger-l), 0.1);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .title.is-1 {
+    font-size: 5rem;
+  }
+  .title.is-2 {
+    font-size: 4rem;
+  }
+  .hero-is-custom {
+    font-size: 4rem;
   }
 }
 
